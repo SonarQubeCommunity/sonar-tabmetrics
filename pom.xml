@@ -42,9 +42,9 @@
   </developers>
 
   <scm>
-    <connection>scm:svn:https://svn.codehaus.org/sonar-plugins/trunk/tab-metrics</connection>
-    <developerConnection>scm:svn:https://svn.codehaus.org/sonar-plugins/trunk/tab-metrics</developerConnection>
-    <url>scm:svn:https://svn.codehaus.org/sonar-plugins/tags/parent-12/sonar-tab-metrics-plugin</url>
+    <connection>scm:git:https://github.com/SonarCommunity/sonar-tabmetrics.git</connection>
+    <developerConnection>scm:git:https://github.com/SonarCommunity/sonar-tabmetrics.git</developerConnection>
+    <url>https://github.com/SonarCommunity/sonar-tabmetrics</url>
   </scm>
 
   <issueManagement>
@@ -53,8 +53,8 @@
   </issueManagement>
 
   <ciManagement>
-    <system>Bamboo</system>
-    <url>http://bamboo.ci.codehaus.org/browse/SONAR-TABMETRICS</url>
+    <system>Cloudbees</system>
+    <url>https://sonarplugins.ci.cloudbees.com/job/tabmetrics/</url>
   </ciManagement>
 
   <properties>
