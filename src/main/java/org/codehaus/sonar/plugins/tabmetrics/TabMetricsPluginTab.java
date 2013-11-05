@@ -1,6 +1,6 @@
 /*
  * Tab Metrics
- * Copyright (C) 2012 eXcentia
+ * Copyright (C) 2012 excentia
  * dev@sonar.codehaus.org
  *
  * This program is free software; you can redistribute it and/or
@@ -30,7 +30,7 @@ import org.sonar.api.web.UserRole;
  * Metrics Tab
  */
 @NavigationSection(NavigationSection.RESOURCE_TAB)
-@ResourceQualifier({ Qualifiers.FILE, Qualifiers.CLASS })
+@ResourceQualifier({ Qualifiers.FILE, Qualifiers.CLASS, Qualifiers.UNIT_TEST_FILE })
 @UserRole(UserRole.CODEVIEWER)
 public class TabMetricsPluginTab extends AbstractRubyTemplate implements RubyRailsPage {
 

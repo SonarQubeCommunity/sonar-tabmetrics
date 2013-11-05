@@ -1,6 +1,6 @@
 /*
  * Tab Metrics
- * Copyright (C) 2012 eXcentia
+ * Copyright (C) 2012 excentia
  * dev@sonar.codehaus.org
  *
  * This program is free software; you can redistribute it and/or

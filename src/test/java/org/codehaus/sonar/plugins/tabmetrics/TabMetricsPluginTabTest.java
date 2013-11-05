@@ -1,6 +1,6 @@
 /*
  * Tab Metrics
- * Copyright (C) 2012 eXcentia
+ * Copyright (C) 2012 excentia
  * dev@sonar.codehaus.org
  *
  * This program is free software; you can redistribute it and/or
@@ -38,16 +38,16 @@ public class TabMetricsPluginTabTest {
 
   @Test
   public void testWidgetsId() {
-    assertEquals(tab.getId(), "metricsTab");
+    assertEquals("Widget ID", tab.getId(), "metricsTab");
   }
 
   @Test
   public void testWidgetsTitle() {
-    assertEquals(tab.getTitle(), "Metrics");
+    assertEquals("Widget title", tab.getTitle(), "Metrics");
   }
 
   @Test
   public void testWidgetsPath() {
-    assertEquals(tab.getTemplatePath(), "/TabMetrics.html.erb");
+    assertEquals("Widget template path", tab.getTemplatePath(), "/TabMetrics.html.erb");
   }
 }

@@ -1,6 +1,6 @@
 /*
  * Tab Metrics
- * Copyright (C) 2012 eXcentia
+ * Copyright (C) 2012 excentia
  * dev@sonar.codehaus.org
  *
  * This program is free software; you can redistribute it and/or
@@ -34,6 +34,6 @@ public class TabMetricsPluginTest {
   public void testGetExtensions() {
     TabMetricsPlugin plugin = new TabMetricsPlugin();
 
-    assertEquals(plugin.getExtensions(), Arrays.asList(TabMetricsPluginTab.class));
+    assertEquals("All extensions of the plugin must be included", plugin.getExtensions(), Arrays.asList(TabMetricsPluginTab.class));
   }
 }
