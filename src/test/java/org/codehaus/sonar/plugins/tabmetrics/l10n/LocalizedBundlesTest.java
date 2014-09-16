@@ -19,7 +19,7 @@
  */
 package org.codehaus.sonar.plugins.tabmetrics.l10n;
 
-import static org.sonar.test.i18n.I18nMatchers.assertAllBundlesUpToDate;
+import static org.sonar.test.i18n.I18nMatchers.assertBundlesUpToDate;
 
 import org.junit.Test;
 
@@ -27,6 +27,7 @@ public class LocalizedBundlesTest {
 
   @Test
   public void test() throws Exception {
-    assertAllBundlesUpToDate();
+    // Since SonarQube 3.3
+    assertBundlesUpToDate();
   }
 }

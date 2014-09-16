@@ -30,7 +30,7 @@ import org.sonar.api.web.UserRole;
  * Metrics Tab
  */
 @NavigationSection(NavigationSection.RESOURCE_TAB)
-@ResourceQualifier({ Qualifiers.FILE, Qualifiers.CLASS, Qualifiers.UNIT_TEST_FILE })
+@ResourceQualifier({ Qualifiers.FILE, Qualifiers.UNIT_TEST_FILE })
 @UserRole(UserRole.CODEVIEWER)
 public class TabMetricsPluginTab extends AbstractRubyTemplate implements RubyRailsPage {
 

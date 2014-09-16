@@ -60,8 +60,14 @@
 														<%= metricObj.short_name -%>: 
 														<% if (metricObj.numeric?) %>
 															<b><%= format_measure(metricObj.key) -%></b>
-														<% elsif (metricObj.data?) %>
-															<input type="text" style="background-color: #EFEFEF; font-weight: bold" readonly="readonly" value="<%= measuresArray[mcount].data -%>">
+														<% elsif (metricObj.data?)
+										             # Read data measure
+														     dataValue = measuresArray[mcount].data;
+														     
+														     # Escape double quotes
+														     formattedDataValue = dataValue.gsub(/"/, '&quot;');
+														%>
+															<input type="text" style="background-color: #EFEFEF; font-weight: bold" readonly="readonly" value="<%= formattedDataValue -%>">
 														<% end %> 
 													</p>
 												</td>
